@@ -23,8 +23,8 @@ test('complete flow - login, create, edit, and delete a todo', async ({ page }) 
   await addTodoBtn.click();
 
   // Fill in form with unique text
-  const newTitle = 'REM Waste - Creating a new item';
-  const newDescription = 'TEST - REM Waste'; 
+  const newTitle = 'QA Engineer - Creating a new item';
+  const newDescription = 'TEST - Antonio Rodriguez Farias'; 
   await page.getByTestId('todo-title-input').fill(newTitle);
   await page.getByTestId('todo-description-input').fill(newDescription);
   await page.screenshot({ path: 'output_files/04-create-item.png', fullPage: true });
@@ -54,7 +54,7 @@ test('complete flow - login, create, edit, and delete a todo', async ({ page }) 
 
   // Update fields
   const updatedTitle = 'Editing an existing item.';
-  const updatedDescription = 'TEST - Edited Waste';
+  const updatedDescription = 'TEST - Edited';
   await editTitleInput.fill('');
   await editTitleInput.fill(updatedTitle);
   await editDescriptionInput.fill('');
