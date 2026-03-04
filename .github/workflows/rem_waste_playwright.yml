@@ -1,4 +1,4 @@
-name: REM Waste | Playwright Tests
+name: QA Engineer | Playwright Tests
 
 on:
   workflow_dispatch:
