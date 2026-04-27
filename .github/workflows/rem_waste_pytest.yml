@@ -2,8 +2,8 @@ name: QA Engineer | API Tests
 
 on:
   schedule:
-    - cron: '0 1 * * 1-5'   # 01:00 UTC
-    - cron: '0 13 * * 1-5'  # 13:00 UTC
+    - cron: '0 1 * * 1-6'   # 01:00 UTC
+    - cron: '0 13 * * 1-6'  # 13:00 UTC
   workflow_dispatch:      # Manual trigger
 
 jobs:
