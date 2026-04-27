@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
   schedule:
     # (CEST / UTC+2) → 01:00 UTC
-    - cron: '0 1 * * 1-5'
+    - cron: '0 1 * * 1-6'
     # (CEST / UTC+2) → 13:00 UTC
-    - cron: '0 13 * * 1-5'
+    - cron: '0 13 * * 1-6'
 
 jobs:
   ui-test:
